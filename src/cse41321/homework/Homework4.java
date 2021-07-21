@@ -42,9 +42,11 @@ public class Homework4 {
 			// keep the tens digit
 			result /= 10;
 		} 
+		//iterates and pops off and prints the next of the result stack until empty
 		while (!Result.isEmpty()) {
 			System.out.print(Result.pop());
 		}
+		//adds the new line char at the end
 		System.out.println();
 	}
 	
@@ -52,7 +54,7 @@ public class Homework4 {
 		//Example One
 		addLargeNumbers("98732383294829432843298578","98732383294829432843298578");
 		//Example Two
-		addLargeNumbers("98732383294829432843298578","1");
+		addLargeNumbers("9873238329482998907987867456433543564476457868660787897987999900000432843298578","176876876867856564534535435422342543653654654654654654654654654654654654654647655");
 		//Example Three
 		addLargeNumbers("9873238329482946876868768768768768768768689403092832843298578","73285798372985729579832759879898732383294829432843298578");
 	}
